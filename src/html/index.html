@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUELWELL</title>
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__flex">
+      <a class="logo" href=""><img src="../img/logo.svg" alt=""></a>
+      <nav>
+        <ul class="nav__ul">
+          <li class="nav__li"><a class="nav__text" href="#About">About</a></li>
+          <li class="nav__li"><a class="nav__text" href="#Benefits">Benefits</a></li>
+          <li class="nav__li"><a class="nav__text" href="">Certificates</a></li>
+          <li class="nav__li"><a class="nav__text" href="">Reviews</a></li>
+          <li class="nav__li"><a class="nav__text" href="#Cooperation">Cooperation</a></li>
+          <li class="nav__li"><a class="nav__text" href="#Contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-stage">
+      <div class="container main-stage__flex">
+        <h1 class="main-stage__title visibility">Main Stage</h1>
+        <div class="main-stage__text-container">
+          <h2 class="main-stage__subtitle main-stage__subtitle__text"><span class="text__blue">FUELWELL®</span> –
+            REDUCE<br>COMMERICAL
+            FLEET<br>CARBON FOOTPRINT</h2>
+          <p class="main-stage__description">The current truck’s annual trip is 100K mil./160K km.,<br>with a total fuel
+            cost of USD 80K and CO2 emission<br>of 266K lbs./ 120 tons</p>
+        </div>
+        <div class="main-stage__img-container">
+          <img class="main-stage__icon1" src="../img/save.png" alt="">
+        </div>
+        <img class="main-stage__icon2" src="../img/timer.png" alt="">
+      </div>
+    </section>
+    <section class="section-two">
+      <div class="container section-two__container">
+        <h2 class="section-two__title"><span class="text__blue">FUELWELL™</span> the hardware plug-in device which
+          innovative inside
+          technology <span class="text__blue">enhance fuel burn out</span>, therefore reduce emission and fuel
+          consumption</h2>
+        <h3 class="visibility" id="About">About</h3>
+        <a class="section-two__link text__blue" href="">
+          <span class="section-two__link-text">Learn your costs and benefit with FuelWell</span>
+          <img class="section-two__arrow" src="../img/Arrow 1.png" alt="">
+        </a>
+      </div>
+    </section>
+    <section class="Efficiency">
+      <div class="container Efficiency__container">
+        <ul class="Efficiency__card-container">
+          <h2 class="Efficiency__title">BRING YOUR CORPORATE FLEET TO<br>THE NEXT LEVEL OF&nbsp;EFFICIENCY</h2>
+          <p class="Efficiency__description">At least <span class="text__blue">10% less</span> fuel consumption. Harmful
+            emissions<br>reduce as following</p>
+          <div class="Efficiency__card">
+            <img class="Efficiency__img" src="../img/Group5.png" alt="">
+            <p class="Efficiency__card-text">Highly dispersed particles such as soot - harmful soot.</p>
+          </div>
+          <div class="Efficiency__card">
+            <img src="../img/Group3.png" alt="">
+            <p class="Efficiency__card-text">Poisonous, odourless, tasteless and colourless</p>
+          </div>
+          <div class="Efficiency__card">
+            <img class="Efficiency__img" src="..//img/Group2.png" alt="">
+            <p class="Efficiency__card-text">Poisonous gas is harmful for people</p>
+          </div>
+          <div class="Efficiency__card">
+            <img class="Efficiency__img" src="../img/Group1.png" alt="">
+            <p class="Efficiency__card-text">Causes global warming</p>
+          </div>
+        </ul>
+        <img class="Efficiency__img--size-big" src="../img/FW-4d1.png" alt="">
+      </div>
+    </section>
+    <section class="form">
+      <div class="container form__container form__bg">
+        <h2 class="form__title">Find out your current annual expenses</h2>
+        <form onsubmit="">
+          <div class="form__table">
+            <div class="form__choose">
+              <label class="form__text" for="Currency"><span class="text__blue">Currency</span></label>
+              <select
+                class="form__item--color-blue form__text form__margin form__text--color-blue form__bg form__frame--size-big "
+                name="Currency" id="Currency">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="RUB">RUB</option>
+              </select>
+            </div>
+            <div class="form__choose">
+              <label class="form__text" for="Select_a_territory"><span>Select a territory</span></label>
+              <select class="form__text form__margin form__bg form__frame--size-big form__item"
+                name="Select_a_territory" id="Select_a_territory">
+                <option value="Europe/L">Europe/L</option>
+                <option value="Europe/R">EUROPE/R</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div class="form__choose">
+              <label class="form__text" for="Vehicle_mileage_(km)"><span>Vehicle mileage (km)</span></label>
+              <input class="form__input-style form__bg form__margin form__frame--size-big  form__item" type="text"
+                placeholder="insert value" id="Vehicle_mileage_(km)">
+            </div>
+            <div class="form__choose">
+              <label class="form__text" for="Fuel_consumption"><span>Fuel consumption</span></label>
+              <input class="form__input-style form__bg form__margin form__frame--size-big  form__item" type="text"
+                id="Fuel_consumption" placeholder="insert value">
+            </div>
+            <div class="form__choose">
+              <label class="form__text" for="Fuel_cost_EUR">Fuel cost EUR</label>
+              <input class="form__input-style form__bg form__margin form__frame--size-big  form__item" type="text"
+                id="Fuel_cost_EUR" value="1.8">
+            </div>
+          </div>
+          <div class="button__container">
+            <button class="button--color-black" type="submit">
+              <span class="button__style form__button text__blue">Find out
+                <img class="button__arrow" src="../img/Arrow 1.png" alt="">
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="big-letters">
+      <h2>&nbsp;</h2>
+      <p class="big-letters__text">L WELL ECO FUEL WEL</p>
+    </section>
+    <section class="benefits">
+      <div class="container benefits__container">
+        <h3 class="visibility" id="Benefits">Benefits</h3>
+        <ul class="benefits__card-container">
+          <li class="benefits__card">
+            <h2 class="benefits__title">ADDITIONAL <span class="text__blue">BENEFITS</span></h2>
+          </li>
+          <li class=" benefits__bg benefits__card benefits__text benefits__card-text benefits__card-one">
+            <div class="">
+              <img src="../img/Frame93.svg" alt="">
+              <p>available for diesel and gasoline<br>engines EURO 6, EURO 5, and lover</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-two">
+            <div class="">
+              <img src="../img/Frame93(1).svg" alt="">
+              <p>no service during life-cycle</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-three">
+            <div class="">
+              <img src="..//img/Frame93(2).svg" alt="">
+              <p>installation with no screw full kit included</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-four">
+            <div class="">
+              <img src="../img/Frame93(3).svg" alt="">
+              <p>Fast ROI (return of investments)</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-five">
+            <div class="">
+              <img src="../img/Frame93(4).svg" alt="">
+              <p>Compact size</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-six">
+            <div class="">
+              <img src="..//img/Frame93(5).svg" alt="">
+              <p>Recyclable in full</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-seven">
+            <div class="">
+              <img src="..//img/Frame93(6).svg" alt="">
+              <p>сompletely human and vehicle safe, no connection to power supply, standard place to mount</p>
+            </div>
+          </li>
+          <li class="benefits__bg benefits__card benefits__text benefits__card-text benefits__card-eight">
+            <div class="">
+              <img src="..//img/Frame93(7).svg" alt="">
+              <p>Industry's most cost-efficient technology reduction USD/1 kg of CO2</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="device device__bg">
+      <div class="container device__container">
+        <div class="device__left-part">
+          <h2 class="device__title"><span class="text__blue">FUELWELL</span> DEVICE ADITIONAL<br>BENEFITS FOR DIESEL
+            ENGINES</h2>
+          <img class="device__img" src="../img/engine_description.jpg" alt="">
+        </div>
+        <div class="device__right-part">
+          <p class="device__text">FuelWell device reduces PM emission on 90%. Most PM is soot, which is unburned diesel
+            fuel. As a result, less
+            soot comes into an exhaust system lifetime of the stock EGR soot filter increase.
+            <br>
+            <br>
+            Moreover, 35% less NOx emission decreases AdBlue urea liquid consumption.
+          </p>
+          <ul class="device__str-container">
+            <li class="text__blue device__str device__str-item">
+              <span class="device__str-number">01</span>
+              <p class="device__str-text">Helps reduce operating fuel costs</p>
+            </li>
+            <li class="text__blue device__str device__str-item">
+              <span class="device__str-number">02</span>
+              <p class="device__str-text">Helps achieve carbon neutrality goals more effectively</p>
+            </li>
+            <li class="text__blue device__str device__str-item">
+              <span class="device__str-number">03</span>
+              <p class="device__str-text">Innovative technology</p>
+            </li>
+            <li class="text__blue device__str device__str-item">
+              <span class="device__str-number">04</span>
+              <p class="device__str-text">Be among the first to save your costs by caring for the environment</p>
+            </li>
+            <li class="text__blue device__str device__str-item">
+              <span class="device__str-number">05</span>
+              <p class="device__str-text">It's profitable to be in the eco trend</p>
+            </li>
+            </ol>
+        </div>
+      </div>
+    </section>
+    <section class="figure">
+      <div class="container figure__container">
+        <div class="figure__top-container">
+          <h2 class="figure__title"><span class="text__blue">FUEL</span> CONSUMPTION<br><span
+              class="text__blue">EFFICIENCY</span></h2>
+          <div class="figure__arrows">
+            <img src="../img/arrow__figure 1.png" alt="">
+            <img src="../img/arrow__figure 2.png" alt="">
+          </div>
+        </div>
+        <div class="figure__card-container">
+          <figure class="figure__card">
+            <img src="../img/Rectangle104.png" alt="" class="figure__photo">
+            <figcaption class="figure__description">
+              <p class="figure__text--size-big figure__text-item--size-big">Scania G410</p>
+              <p class="figure__text figure__text-item">FW 6D |Vita-Auto| 3 pcs. |22 % & 19% & 13% |</p>
+            </figcaption>
+          </figure>
+          <figure class="figure__card">
+            <img src="..//img/Rectangle104(1).png" alt="" class="figure__photo">
+            <figcaption class="figure__description">
+              <p class="figure__text--size-big figure__text-item--size-big">MAN TGA 18.430</p>
+              <p class="figure__text figure__text-item">FW 8D |OKKO| 21%|</p>
+            </figcaption>
+          </figure>
+          <figure class="figure__card">
+            <img src="..//img/Rectangle104(2).png" alt="" class="figure__photo">
+            <figcaption class="figure__description">
+              <p class="figure__text--size-big figure__text-item--size-big">MAN 8180</p>
+              <p class="figure__text figure__text-item">FW 6D | EcoSoft | 9% |</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="container steps__container">
+        <h2 class="steps__title">3 STEPS OF <span class="text__blue">COOPERATION</span></h2>
+        <h3 class="visibility" id="Cooperation">Cooperation</h3>
+        <ul class="steps__card-container">
+          <li class="steps__bg steps__card-size steps__card-one">
+            <div class="steps__text-container">
+              <p class="steps__subtitle steps__subtitle-loc"><span class="text__blue">STEP 1</span></p>
+              <p class="steps__text steps__text-loc">worth equipping your fleet? Book a 30min presentation and Q&A
+                session</p>
+              <div class="steps__link-container-one">
+                <a href="" class="text__blue steps__link">
+                  <span class="steps__link-pos">continue to calendar<img src="../img/steps__arrow.svg"
+                      alt=""></span></a>
+              </div>
+            </div>
+            <div class="steps__arrow-first">
+              <img src="..//img/Group.svg" alt="">
+            </div>
+          </li>
+          <li class="steps__bg steps__card-size steps__card-two">
+            <div>
+              <img class="steps__arrow-second" src="..//img/Vector.svg" alt="">
+            </div>
+            <div>
+              <p class="steps__subtitle steps__subtitle-loc"><span class="text__blue">STEP 2</span></p>
+              <p class="steps__text steps__text-loc">Get a free quote for your fleet</p>
+              <div class="steps__link-container-two">
+                <a href="" class="text__blue steps__link">
+                  <span class="steps__link-pos">fill online form<img src="../img/steps__arrow.svg" alt=""></span></a>
+              </div>
+            </div>
+          </li>
+          <li class="steps__bg steps__card-size steps__card-three">
+            <div>
+              <p class="steps__subtitle steps__subtitle-loc"><span class="text__blue">STEP 3</span></p>
+              <p class="steps__text steps__text-loc">Preorder for your fleet now and get special discount up to 50%</p>
+              <div class="steps__link-container-three">
+                <a href="" class="text__blue steps__link">
+                  <span class="steps__link-pos">fill online form<img src="../img/steps__arrow.svg" alt=""></span></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer footer__bg">
+    <h2 class="hidden footer__title">FOOTER</h2>
+    <div class="container footer__container">
+      <div class="footer__top-container">
+        <div class="footer__address-container">
+          <img src="../img/logo.svg" alt="" class="footer__logo">
+          <address class="footer__address footer__text">919 North Market Street, Suite 950, Wilmington, Delaware 19801</p>
+        </div>
+        <div class="footer__icons-container">
+          <ul class="footer__icons-table">
+            <li class="footer__icons-item"><a class="footer__icons-link"><img src="../img/Vector(1).svg" alt="" class="footer__icons-image"></a></li>
+            <li class="footer__icons-item"><a class="footer__icons-link"><img src="../img/Vector(2).svg" alt="" class="footer__icons-image"></a></li>
+            <li class="footer__icons-item"><a class="footer__icons-link"><img src="../img/Vector(3).svg" alt="" class="footer__icons-image"></a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts-container">
+          <span class="footer__contacts-span text__blue">For investors</span>
+          <a href="mailto:office@fuel-well.com" class="footer__contacts-link footer__text underline">office@fuel-well.com</a>
+          <span class="footer__contacts-span text__blue">For B2B</span>
+          <a href="mailto:sales@fuel-well.com" class="footer__contacts-link footer__text underline">sales@fuel-well.com</a>
+        </div>
+      </div>
+      <div class="footer__policy">
+        <p class="footer__text--size-big footer__policy-text">Private policy</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
